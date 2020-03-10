@@ -1,7 +1,7 @@
 
 [build]
   functions = "lambda"
-  command = "npm install"
+  command = "netlify-lambda install"
 
 [[redirects]]
  from = "/status"
