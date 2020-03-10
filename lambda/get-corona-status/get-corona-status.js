@@ -23,9 +23,9 @@ exports.handler = async function(event, context) {
     return {
       statusCode: 200,
       body: JSON.stringify({
-        tested: tested.text(),
-        infected: infected.text(),
-        deaths: deaths.text(),
+        tested: Number.parseInt(tested.text().replace('.', '')),
+        infected: Number.parseInt(infected.text().replace('.', '')),
+        deaths: Number.parseInt(deaths.text().replace('.', '')),
         updatedAt: new Date(updatedAt.text().replace('Opdateret ', ''))
       })
     }
