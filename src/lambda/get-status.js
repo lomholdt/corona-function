@@ -17,12 +17,12 @@ export function handler(event, context, callback) {
       return callback(null, {
           statusCode: 200,
           headers: {"Content-Type": "application/json"},
-          body: JSON.stringify({
+          body: {
             tested: tested,
             infected: infected,
             deaths: deaths,
             updatedAt: new Date(updatedAt.text().replace('Opdateret ', ''))
-          })
+          }
         })
       } else {
         return callback(null, {
