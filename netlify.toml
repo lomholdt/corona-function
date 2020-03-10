@@ -1,6 +1,6 @@
 
 [build]
-  functions = "functions"
+  functions = "lambda"
   command = "npm install"
 
 [[redirects]]
