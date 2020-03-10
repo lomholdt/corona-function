@@ -1,9 +1,9 @@
 
 [build]
-  Functions = "functions"
+  functions = "functions"
   command = "#"
 
 [[redirects]]
  from = "/status"
- to = "/.netlify/functions/get-status"
+ to = "/.netlify/functions/get-corona-status"
  status = 200
