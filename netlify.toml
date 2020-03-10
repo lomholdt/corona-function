@@ -1,0 +1,9 @@
+
+[build]
+  Functions = "functions"
+  command = "#"
+
+[[redirects]]
+ from = "/status"
+ to = "/.netlify/functions/get-status"
+ status = 200
