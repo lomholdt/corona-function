@@ -1,9 +1,8 @@
 
 [build]
   functions = "lambda"
-  command = "netlify-lambda install"
 
 [[redirects]]
- from = "/status"
+ from = "/"
  to = "/.netlify/functions/get-corona-status"
  status = 200
