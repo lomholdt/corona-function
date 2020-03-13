@@ -17,7 +17,7 @@ exports.handler = async function(event, context) {
 
     const tested = $('body > div.main__content > main > article > div.o-content-block.u-grid.u-grid--space-between.u-grid--no-gutter.u-ie > div > div:nth-child(4) > div > table > tbody > tr:nth-child(2) > td:nth-child(2)');
     const infected = $('body > div.main__content > main > article > div.o-content-block.u-grid.u-grid--space-between.u-grid--no-gutter.u-ie > div > div:nth-child(4) > div > table > tbody > tr:nth-child(2) > td:nth-child(3)');
-    const deaths = $('body > div.main__content > main > article > div.o-content-block.u-grid.u-grid--space-between.u-grid--no-gutter.u-ie > div > div:nth-child(4) > div > table > tbody > tr:nth-child(2) > td:nth-child(3)');
+    const deaths = $('body > div.main__content > main > article > div.o-content-block.u-grid.u-grid--space-between.u-grid--no-gutter.u-ie > div > div:nth-child(4) > div > table > tbody > tr:nth-child(2) > td:nth-child(4)');
     const updatedAt = $('body > div.main__content > main > article > div.o-content-block.u-grid.u-grid--space-between.u-grid--no-gutter.u-ie > div > div:nth-child(4) > p:nth-child(4) > em > em');
 
     return {
